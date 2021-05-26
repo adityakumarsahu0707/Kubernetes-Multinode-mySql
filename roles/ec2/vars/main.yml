@@ -8,7 +8,7 @@ subnet: "subnet-611c1509"
 region: "ap-south-1"
 count: 2
 key_path: "/root/key/adi_key_march.pem"
-inventory_path: "/ansible-playbooks/k8s-multinode-cluster/inventory"
+inventory_path: "/Kubernetes-Multinode-mySql/inventory"
 aws_profile: "aditya"
 pip-sdk:
         - boto
