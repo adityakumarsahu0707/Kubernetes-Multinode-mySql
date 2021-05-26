@@ -1,5 +1,2 @@
 [masternode]
-52.66.201.70  ansible_private_key_file=/root/key/adi_key_march.pem  ansible_ssh_user=ec2-user
 [slavenode]
-35.154.135.56  ansible_private_key_file=/root/key/adi_key_march.pem  ansible_ssh_user=ec2-user
-13.232.54.151  ansible_private_key_file=/root/key/adi_key_march.pem  ansible_ssh_user=ec2-user

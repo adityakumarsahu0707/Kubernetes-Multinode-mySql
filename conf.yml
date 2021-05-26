@@ -19,3 +19,13 @@
             with_items: "{{ groups['masternode'] }}"
             ignore_errors: yes
 
+            
+- hosts: masternode
+  tasks:
+          - name: Copying Wordpress Deployment File
+            copy:
+                    src: "./wp-sql-dep.yml"
+                    dest: "./"
+          - name: Setting Up Wordpress server
+            command: "kubectl apply -f wp-sql-dep.yml"
+            become: false

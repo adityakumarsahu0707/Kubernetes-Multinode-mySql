@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Wordpress-Frontend
+  name: wordpress-frontend
   labels:
     app: web
 spec:
@@ -22,7 +22,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: MySQL-Server-Backend
+  name: mysql-server-backend
   labels:
     app: web1
 spec:
